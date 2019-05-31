@@ -1,0 +1,11 @@
+coala-utils~=0.5.0
+bs4
+lxml
+requests
+twitterscraper Trump -l 100 -bd 2017-01-01 -ed 2017-06-01 -o tweets.json
+
+twitterscraper --lang en "HDFC OR hdfc near:India" -bd 2018-01-01 -ed 2019-01-31 -c -o hdfc_tweets.csv -l 5000
+sys.stdout = open('/Users/anaghakaranam/Desktop/Python_DataScience/Stock_Brokerage/log.txt', 'w')
+import sys
+
+twitterscraper "HDFC or hdfc" -bd 2018-01-01 -ed 2019-01-02 --csv -o /Volumes/ANAGHA/Data/Twitter_Data/HDFC Bank/hdfc_tweets.csv
